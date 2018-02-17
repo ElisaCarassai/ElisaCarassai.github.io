@@ -134,6 +134,7 @@ img,
 .container__grid--mid {
   background: #000;
   color: #fff;
+  padding: 8.3% 0;
 }
 
 .container__grid--foot {
@@ -150,7 +151,9 @@ a:focus,
   text-decoration: none;
 }
 
-.link--inverted {
+.link--inverted,
+.link--inverted:hover,
+.link--inverted:focus {
   color: #fff;
 }
 
@@ -171,7 +174,7 @@ a:focus,
 
 .title--serif-mid {
   font-size: 100px;
-  margin-top: 12.45%;
+  /*margin-top: 12.45%;*/
   text-decoration: underline;
 }
 
@@ -213,4 +216,8 @@ a:focus,
   font-size: 30px;
   font-weight: 400;
   font-style: normal;
+}
+
+.nowrap {
+  white-space: nowrap;
 }
