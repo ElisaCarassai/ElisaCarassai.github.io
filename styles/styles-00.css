@@ -49,6 +49,15 @@ li {
   /* height: 16.6%; */
 }
 
+.grid__row--fixed {
+  background: #FFF4EF;
+  padding-bottom: 4.15%;
+  padding-top: 4.15%;
+  position: fixed;
+  width: 92%;
+  z-index: 10;
+}
+
 /*Use 2400px as 100%, 6x6grid*/
 .grid__col {
   margin: 0 2.07%;
@@ -128,7 +137,7 @@ img,
 
 /* Container styles */
 .container__grid--head {
-  margin-top: 4.15%;
+  /*margin-top: 4.15%;*/
 }
 
 .container__grid--mid {
@@ -169,7 +178,8 @@ a:focus,
 }
 
 .title--serif-head {
-  margin-top: 20.7%;
+  margin-top: 29%;
+  /*margin-top: 16.55%;*/
 }
 
 .title--serif-mid {

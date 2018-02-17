@@ -8,6 +8,7 @@ function resize() {
       IW = window.innerWidth;
 
    $(".grid__row--spacer" ).css({"height": IW*0.1245 + "px"});
+  //  $(".grid__row--fixed" ).css({"width": $(".grid__col--12").innerWidth() / IW * 100 + 4.15 + "%" });
 }
 
 
