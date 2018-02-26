@@ -12,6 +12,14 @@
 </head>
 <body>
 
+  <section class="container__grid container__grid--absolute" id="about">
+    <section class="grid__row grid__row--titles">
+      <section class="grid__col grid__col--12">
+        <h2 class="title title--sans title--sans-mid">Elisa is Milan born fashion and design writer. She moved to London in September 2014 for a foundation year at Condé Nast College of Fashion and Design. Since then she has interned at J.J. Martins LaDoubleJ.com, Nowness, Wallpaper* and British Vogue. Her work has been published by Wallpaper* Magazine and she contributes to Corriere Della Serra's Design Magazine, Living. She is now currently studying Fashion Journalism at London College of Fashion.</h2>
+      </section>
+    </section>
+  </section>
+
   <section class="container__grid container__grid--head">
 
     <section class="grid__row grid__row--fixed">
@@ -20,53 +28,78 @@
       </section>
       <section class="grid__col grid__col--8"></section>
       <section class="grid__col grid__col--1">
-        <a class="link link--text" href="#">articles</a>
+        <a class="link link--text" href="#articles">articles</a>
       </section>
       <section class="grid__col grid__col--1">
-        <a class="link link--text" href="#">about</a>
+        <a class="link link--text" id="link--about" href="#">about</a>
       </section>
       <section class="grid__col grid__col--1">
-        <a class="link link--text" href="#">contact</a>
+        <a class="link link--text" href="#contact">contact</a>
       </section>
     </section>
 
-    <section class="grid__row">
-      <section class="grid__col grid__col--9">
-        <h1 class="title title--serif title--serif-head">Elisa Carassai</h1>
-        <h2 class="title title--sans title--sans-head">is a London/Milan Based fashion and design journalist.</h2>
+    <section class="grid__row grid__row--titles">
+      <section class="grid__col grid__col--12">
+        <h1 class="title title--serif title--serif-head"><span class="link--underline">Elisa Carassai</span></h1>
+        <h2 class="title title--sans title--sans-head">is a London/Milan based fashion and design journalist. She has worked at <a href="#" class="link--underline link--serif">Wallpaper*</a>, <a href="#" class="link--underline link--serif">British Vogue</a>, <a href="#" class="link--underline link--serif">Tank</a>, <a href="#" class="link--underline link--serif">Nowness</a>, <a href="#" class="link--underline link--serif">Corriere della Sera</a></h2>
       </section>
-      <section class="grid__col grid__col--3"></section>
     </section>
 
   </section>
 
-  <section class="container__grid container__grid--mid">
+  <section class="container__grid container__grid--mid" id="articles">
 
-    <section class="grid__row">
-      <section class="grid__col grid__col--9">
-        <a class="link link--inverted link--title-serif" href="#"><h1 class="title title--serif title--serif-mid">Articles</h1></a>
-        <a class="link link--inverted link--title-sans" href="#"><h2 class="title title--sans title--sans-mid">Wallpaper</h2></a>
+    <section class="grid__row grid__row--titles">
+      <section class="grid__col grid__col--12">
+        <h1 class="title title--serif title--serif-mid"><span class="link--underline-inverted">Articles</span></h1>
+        <a class="link link--inverted link--title-sans" href="#"><h2 class="title title--sans title--sans-mid title--hover"><img class="img--inline" src="assets/png/arrow_01.png"> &nbsp;Wallpaper*</h2></a>
       </section>
-      <section class="grid__col grid__col--3"></section>
     </section>
 
-    <section class="grid__row">
+    <section class="grid__row grid__row--switch positionAuto slideshow--top">
+      <section id="slideshowTop" class="slideshow__controls slideshow__controls--top slideshow__controls--left hide">
+        <img class="img--inline" src="assets/png/arrow_01.png">
+      </section>
       <section class="grid__col grid__col--4">
-        <img class="img img--col-4" src="assets/png/img_01.png">
+        <img class="img img--col-4 img--hover" src="assets/png/img_01.png">
         <ul>
           <li class="caption caption--small">Shoes Turchia</li>
           <li class="caption caption--small-date">27/03/2016</li>
         </ul>
       </section>
       <section class="grid__col grid__col--4">
-        <img class="img img--col-4" src="assets/png/img_02.png">
+        <img class="img img--col-4 img--hover" src="assets/png/img_02.png">
         <ul>
           <li class="caption caption--small">Borsa a quadri</li>
           <li class="caption caption--small-date">26/05/2016</li>
         </ul>
       </section>
       <section class="grid__col grid__col--4">
-        <img class="img img--col-4" src="assets/png/img_03.png">
+        <img class="img img--col-4 img--hover" src="assets/png/img_03.png">
+        <ul>
+          <li class="caption caption--small">Shoes Turchia</li>
+          <li class="caption caption--small-date">27/03/2016</li>
+        </ul>
+      </section>
+      <section id="slideshowTop" class="slideshow__controls slideshow__controls--top slideshow__controls--right hide">
+        <img class="img--inline" src="assets/png/arrow_01.png">
+      </section>
+      <section class="grid__col grid__col--4">
+        <img class="img img--col-4 img--hover" src="assets/png/img_04.png">
+        <ul>
+          <li class="caption caption--small">Shoes Turchia</li>
+          <li class="caption caption--small-date">27/03/2016</li>
+        </ul>
+      </section>
+      <section class="grid__col grid__col--4">
+        <img class="img img--col-4 img--hover" src="assets/png/img_05.png">
+        <ul>
+          <li class="caption caption--small">Borsa a quadri</li>
+          <li class="caption caption--small-date">26/05/2016</li>
+        </ul>
+      </section>
+      <section class="grid__col grid__col--4">
+        <img class="img img--col-4 img--hover" src="assets/png/img_06.png">
         <ul>
           <li class="caption caption--small">Shoes Turchia</li>
           <li class="caption caption--small-date">27/03/2016</li>
@@ -83,21 +116,41 @@
     <section class="grid__row">
       <section class="grid__col grid__col--9">
         <!-- <a href="#"><h1>Articles</h1></a> -->
-        <a class="link link--inverted link--title-sans" href="#"><h2 class="title title--sans title--sans-mid">Corriere della Sera</h2></a>
+        <a class="link link--inverted link--title-sans" href="#"><h2 class="title title--sans title--sans-mid title--hover"><img class="img--inline" src="assets/png/arrow_01.png"> &nbsp;Corriere della Sera</h2></a>
       </section>
       <section class="grid__col grid__col--3"></section>
     </section>
 
-    <section class="grid__row">
+    <section class="grid__row grid__row--switch positionAuto slideshow--bottom">
+      <section id="slideshowBottom" class="slideshow__controls slideshow__controls--bottom slideshow__controls--left hide">
+        <img class="img--inline" src="assets/png/arrow_01.png">
+      </section>
       <section class="grid__col grid__col--6">
-        <img class="img img--col-6" src="assets/png/img_04.png">
+        <img class="img img--col-6 img--hover" src="assets/png/img_04.png">
         <ul>
           <li class="caption">Matter, eleganza made in New York </li>
           <li class="caption caption--date">27/03/2016</li>
         </ul>
       </section>
       <section class="grid__col grid__col--6">
-        <img class="img img--col-6" src="assets/png/img_05.png">
+        <img class="img img--col-6 img--hover" src="assets/png/img_05.png">
+        <ul>
+          <li class="caption">Olandesi a Milano</li>
+          <li class="caption caption--date">27/03/2016</li>
+        </ul>
+      </section>
+      <section id="slideshowBottom" class="slideshow__controls slideshow__controls--bottom slideshow__controls--right hide">
+        <img class="img--inline" src="assets/png/arrow_01.png">
+      </section>
+      <section class="grid__col grid__col--6">
+        <img class="img img--col-6 img--hover" src="assets/png/img_06.png">
+        <ul>
+          <li class="caption">Matter, eleganza made in New York </li>
+          <li class="caption caption--date">27/03/2016</li>
+        </ul>
+      </section>
+      <section class="grid__col grid__col--6">
+        <img class="img img--col-6 img--hover" src="assets/png/img_07.png">
         <ul>
           <li class="caption">Olandesi a Milano</li>
           <li class="caption caption--date">27/03/2016</li>
@@ -123,7 +176,7 @@
         </ul>
       </section>
       <section class="grid__col grid__col--2">
-        <a class="link text--foot" href="mailto:elisacarassai@gmail.com">elisacarassai@gmail.com</a>
+        <a id="contact" class="link text--foot" href="mailto:elisacarassai@gmail.com">elisacarassai@gmail.com</a>
       </section>
       <section class="grid__col grid__col--1">
         <p class="text--foot nowrap">©Elisa Carassi</p>
@@ -135,7 +188,7 @@
         <p class="text--foot text--foot-line">–</p>
       </section>
       <section class="grid__col grid__col--3">
-        <p class="text--foot text--foot-right">Design: Leonardo Pellegribo</p>
+        <p class="text--foot text--foot-right">Design: Leonardo Pellegrino</p>
       </section>
 
     </section>
