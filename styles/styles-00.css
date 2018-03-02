@@ -193,6 +193,7 @@ img,
 
 .slideshow__controls--left {
   transform: rotate(180deg);
+  left: 2.07%;
 }
 
 .slideshow__controls--right {
