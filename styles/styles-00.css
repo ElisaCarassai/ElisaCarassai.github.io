@@ -314,11 +314,13 @@ a:focus,
 
 .title--sans-head {
   font-size: 95px;
+  font-weight: 100;
   margin-bottom: 12.45%;
 }
 
 .title--sans-mid {
   font-size: 90px;
+  font-weight: 100;
   padding: 2.07% 0;
 }
 
