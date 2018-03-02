@@ -14,7 +14,7 @@ ul {
   list-style: none;
 }
 
-li {
+.li--inline {
   display: inline-block;
 }
 
@@ -187,8 +187,12 @@ img,
 
 .slideshow__controls {
   position: absolute;
-  visibility: visible;
+  visibility: hidden;
   z-index: 11;
+}
+
+.slideshow__controls:hover {
+  cursor: pointer;
 }
 
 .slideshow__controls--left {
@@ -199,11 +203,6 @@ img,
 .slideshow__controls--right {
   right: 2.07%;
 }
-
-.hide {
-  visibility: hidden;
-}
-
 
 /* Link styles */
 a,
@@ -226,6 +225,7 @@ a:focus,
 
 .link--serif {
   font-family: "Ogg", serif;
+  font-weight: 400;
 }
 
 .link--underline {
@@ -291,6 +291,7 @@ a:focus,
 
 .title--serif {
   font-family: "Ogg", serif;
+  font-weight: 400;
 }
 
 .title--serif-head {
@@ -311,6 +312,11 @@ a:focus,
   font-weight: 100;
 }
 
+.text--foot {
+  font-weight: 400;
+  font-size: 25px;
+}
+
 .title--sans-head {
   font-size: 95px;
   font-weight: 100;
@@ -324,27 +330,27 @@ a:focus,
 }
 
 .caption {
-  font-size: 35px;
+  font-size: 30px;
+  font-weight: 400;
   margin: 4.15% 0;
 }
 
-.caption--small,
-.caption--small-date,
-.text--foot {
-  font-size: 25px;
-}
-
-.caption--small-date,
-.caption--date,
 .text--foot-right {
   position: absolute;
   right: 0;
 }
 
+.caption--small-date,
+.caption--date {
+  font-size: 12.5px;
+  font-weight: 100;
+  letter-spacing: 1.75px;
+}
+
 .link--text {
   font-family: "Basis Grotesque Pro", sans-serif;
   font-size: 30px;
-  font-weight: 100;
+  font-weight: 400;
   font-style: normal;
 }
 
