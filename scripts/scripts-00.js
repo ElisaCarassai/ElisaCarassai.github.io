@@ -163,3 +163,16 @@ $(".slideshow__controls--right").click(function () {
 $(".slideshow__controls--left").click(function () {
     $(this).parent(".slideshow").addClass("positionAuto");
 });
+
+//img move
+//-
+//img move
+//-
+$(".img--hover").mouseover(function() {
+  $(this).css({"margin-top": $(window).innerHeight()*-1/12*0.01 + "%",
+               "margin-bottom": $(window).innerHeight()*1/12*0.01 + "%"});
+});
+$(".img--hover").mouseout(function() {
+  $(this).css({"margin-top": $(window).innerHeight()*1/12*0.01 + "%",
+               "margin-bottom": $(window).innerHeight()*-1/12*0.01 + "%"});
+});

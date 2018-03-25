@@ -229,10 +229,8 @@ a:focus,
 }
 
 .img--hover:hover {
-  margin-top: -35px;
   cursor: pointer;
 }
-
 
 /*Typography*/
 .title {
