@@ -327,6 +327,11 @@ a:focus,
           transform: rotate(180deg);
 }
 
+.img__soc {
+  height: 20px;
+  width: auto;
+}
+
 /*desktop--small styles*/
 @media only screen and (max-width: 1400px)  {
   .title--serif-head,

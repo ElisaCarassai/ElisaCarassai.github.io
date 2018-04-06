@@ -60,6 +60,8 @@ function resize() {
   $(".slideshow__controls--left").css({"left": gridUnit/4 + "%"});
   $(".slideshow__controls--right").css({"right": gridUnit/4 + "%"});
   $(".container__header").css({"bottom": gridUnit + "%"});
+  $(".img--hover").css({"margin-top": $(window).innerHeight()*1/12*0.005 + "%",
+                        "margin-bottom": $(window).innerHeight()*-1/12*0.005 + "%"});
 
   //Type
   $(".title--serif-head").css({"margin-top": gridUnit*1.5 + "%"});
@@ -166,13 +168,13 @@ $(".slideshow__controls--left").click(function () {
 
 //img move
 //-
-//img move
-//-
+
+
 $(".img--hover").mouseover(function() {
-  $(this).css({"margin-top": $(window).innerHeight()*-1/12*0.01 + "%",
-               "margin-bottom": $(window).innerHeight()*1/12*0.01 + "%"});
+  $(this).css({"margin-top": $(window).innerHeight()*-1/12*0.005 + "%",
+               "margin-bottom": $(window).innerHeight()*1/12*0.005 + "%"});
 });
 $(".img--hover").mouseout(function() {
-  $(this).css({"margin-top": $(window).innerHeight()*1/12*0.01 + "%",
-               "margin-bottom": $(window).innerHeight()*-1/12*0.01 + "%"});
+  $(this).css({"margin-top": $(window).innerHeight()*1/12*0.005 + "%",
+               "margin-bottom": $(window).innerHeight()*-1/12*0.005 + "%"});
 });
