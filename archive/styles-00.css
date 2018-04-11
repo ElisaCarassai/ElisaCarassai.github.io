@@ -482,21 +482,6 @@ a:focus,
     margin: 0;
   }
 
-  /* about section new page */
-  #about {
-    background: black;
-    color: white;
-    padding: 10% 0 15%;
-  }
-
-  #about .title {
-    font-size: 20px;
-  }
-
-  .container__grid--foot {
-    margin: 12.5% 0;
-  }
-
   /* .container__grid--absolute {
     display: none;
   } */
@@ -525,10 +510,6 @@ a:focus,
   }
 
 	/*Text styles*/
-  .title--articles-mobile {
-    margin-top: -70px;
-  }
-
   .title--serif-head {
     font-size: 55px;
   }
@@ -545,7 +526,7 @@ a:focus,
   }
 
   .title--sans-mid {
-    font-size: 35px;
+    font-size: 25px;
     letter-spacing: 0.25px;
   }
 

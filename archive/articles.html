@@ -6,57 +6,53 @@
   <title>Elisa Carassai</title>
   <meta name="author" content="Nathalie de Vallière" contact="https://ndevalliere.github.io/">
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
   <link rel="stylesheet" href="https://rawgit.com/elisaCarassai/elisaCarassai.github.io/master/styles/fonts.css">
-  <link rel="stylesheet" href="styles/slide-00.css">
-  <link rel="stylesheet" href="styles/styles-00.css">
+  <script type="text/javascript" src="../scripts/jquery.min.js"></script>
+  <link rel="stylesheet" href="../styles/styles-00.css">
 </head>
 <body>
 
   <section class="container__grid container__grid--absolute" id="about">
-    <section class="grid__row grid__row--titles grid__row--absolute">
+    <section class="grid__row grid__row--titles">
       <section class="grid__col grid__col--12">
-        <h2 class="title title--about title--sans title--sans-mid">Elisa is Milan born fashion and design writer. She moved to London in September 2014 for a foundation year at Condé Nast College of Fashion and Design. Since then she has interned at J.J. Martins LaDoubleJ.com, Nowness, Wallpaper* and British Vogue. Her work has been published by Wallpaper* Magazine and she contributes to Corriere Della Serra's Design Magazine, Living. She is now currently studying Fashion Journalism at London College of Fashion.</h2>
+        <h2 class="title title--sans title--sans-mid">Elisa is Milan born fashion and design writer. She moved to London in September 2014 for a foundation year at Condé Nast College of Fashion and Design. Since then she has interned at J.J. Martins LaDoubleJ.com, Nowness, Wallpaper* and British Vogue. Her work has been published by Wallpaper* Magazine and she contributes to Corriere Della Serra's Design Magazine, Living. She is now currently studying Fashion Journalism at London College of Fashion.</h2>
       </section>
     </section>
   </section>
 
-  <section class="container__grid container__grid--head">
+  <section class="container__grid">
 
     <section class="grid__row grid__row--fixed">
       <section class="grid__col grid__col--1">
-        <a class="link link--text nowrap" id="link--home" href="#">Elisa Carassai</a>
+        <a class="link link--text nowrap" href="../index.html">Elisa Carassai</a>
       </section>
       <section class="grid__col grid__col--8"></section>
       <section class="grid__col grid__col--1">
-        <a class="link link--text" href="pages/articles.html">articles</a>
+        <a class="link link--text"  id="link--home" href="#">articles</a>
       </section>
       <section class="grid__col grid__col--1">
         <a class="link link--text" id="link--about" href="#">about</a>
       </section>
       <section class="grid__col grid__col--1">
-        <a class="link link--text" href="mailto:e.carassai@gmail.com">contact</a>
-      </section>
-    </section>
-
-    <section class="grid__row grid__row--titles">
-      <section class="grid__col grid__col--12 grid__col--IH">
-        <section class="container__header">
-          <h1 class="title title--serif title--serif-head">Elisa Carassai</h1>
-          <h2 class="title title--sans title--sans-head">is a London/Milan based fashion and design journalist.</h2>
-        </section>
-        <a class="link link--text link--text--mobile" id="link--about-mobile" href="pages/readmore.html"><img class="img--inline img--spacing img-svg__black--small" src="assets/svg/arrow__black-small.svg">Read More</a>
+        <a class="link link--text" href="mailto:elisacarassai@gmail.com">contact</a>
       </section>
     </section>
 
   </section>
 
+  <!-- <section class="grid__row grid__row--spacer">
+    <section class="grid__col grid__col--12">
+      <h1>&nbsp;</h1>
+    </section>
+  </section> -->
+
   <section class="container__grid--replacement hide"></section>
 
   <section class="container__grid container__grid--mid" id="articles">
-
     <section class="grid__row grid__row--titles">
       <section class="grid__col grid__col--12">
+        <h1>&nbsp;</h1>
+        <h1>&nbsp;</h1>
         <h1 class="title title--serif title--serif-mid"><span class="title--underline">Articles</span></h1>
       </section>
     </section>
@@ -67,16 +63,19 @@
       <section class="grid__col grid__col--12">
         <a class="link link--inverted link--title-sans" SRC="http://www.vogue.co.uk">
           <h2 class="title title--sans title--sans-mid title--hover">
-            <img class="img--inline img--spacing img-svg__white-large" src="assets/svg/arrow__white-large.svg">British Vogue
+            <img class="img--inline img--spacing img-svg__white-large" src="../assets/svg/arrow__white-large.svg">British Vogue
           </h2>
         </a>
       </section>
     </section>
 
-    <!-- FIRST slideshow start -->
-    <section class="slideshow slideshow--unfinished" data-slick='{"slidesToShow": 5, "slidesToScroll": 5}'>
-        <section class="img--hover">
-          <!-- INSTRUCTIONS: Replace content of HREF with link to your article / SRC to your photo -->
+    <section class="grid__row grid__row--switch positionAuto slideshow">
+      <!-- INSTRUCTIONS: Uncomment content below, to show slider controls -->
+      <!-- <section class="slideshow__controls slideshow__controls--left">
+        <img class="img--inline img-svg__white-large" src="../assets/svg/arrow__white-large.svg">
+      </section> -->
+        <section class="grid__col grid__col--4 img--hover">
+          <!-- INSTRUCTIONS: Replace content of HREF with link to your article -->
           <a class="link link--inverted link--title-sans" HREF="http://www.vogue.co.uk/gallery/best-prada-sets">
             <img class="img img--col-4" SRC="https://vg-images.condecdn.net/image/87OQwKewvvw/crop/810">
             <ul>
@@ -85,8 +84,8 @@
             </ul>
           </a>
         </section>
-      <section class="img--hover">
-        <!-- INSTRUCTIONS: Replace content of HREF with link to your article / SRC to your photo -->
+      <section class="grid__col grid__col--4 img--hover">
+        <!-- INSTRUCTIONS: Replace content of HREF with link to your article -->
         <a class="link link--inverted link--title-sans" HREF="http://www.vogue.co.uk/gallery/marvelous-mrs-maisel-best-fashion-moments">
           <img class="img img--col-4" SRC="https://vg-images.condecdn.net/image/lYenA6AqMn7/crop/1020">
           <ul>
@@ -95,11 +94,51 @@
           </ul>
         </a>
       </section>
-      <section class="img--hover"></section>
-      <section class="img--hover"></section>
-      <section class="img--hover"></section>
+      <section class="grid__col grid__col--4">
+        <!-- INSTRUCTIONS: Uncomment content below, to add more articles -->
+        <!-- <a class="link link--inverted link--title-sans" HREF="">
+         <img class="img img--col-4 " INSTRUCTIONS="">
+          <ul>
+            <li class="caption caption--small">TITLE</li>
+            <li class="caption caption--small-date">DATE</li>
+          </ul>
+        </a> -->
+      </section>
+      <!-- INSTRUCTIONS: Uncomment content below, to show slider controls -->
+      <!-- <section class="slideshow__controls slideshow__controls--right">
+        <img class="img--inline img-svg__white-large" src="../assets/svg/arrow__white-large.svg">
+      </section> -->
+      <section class="grid__col grid__col--4">
+        <!-- INSTRUCTIONS: Uncomment content below, to add more articles -->
+        <!-- <a class="link link--inverted link--title-sans" HREF="">
+         <img class="img img--col-4 " SRC="">
+          <ul>
+            <li class="caption caption--small">TITLE</li>
+            <li class="caption caption--small-date">DATE</li>
+          </ul>
+        </a> -->
+      </section>
+      <section class="grid__col grid__col--4">
+        <!-- INSTRUCTIONS: Uncomment content below, to add more articles -->
+        <!-- <a class="link link--inverted link--title-sans" HREF="">
+         <img class="img img--col-4 " SRC="">
+          <ul>
+            <li class="caption caption--small">TITLE</li>
+            <li class="caption caption--small-date">DATE</li>
+          </ul>
+        </a> -->
+      </section>
+      <section class="grid__col grid__col--4">
+        <!-- INSTRUCTIONS: Uncomment content below, to add more articles -->
+        <!-- <a class="link link--inverted link--title-sans" HREF="">
+         <img class="img img--col-4 " SRC="">
+          <ul>
+            <li class="caption caption--small">TITLE</li>
+            <li class="caption caption--small-date">DATE</li>
+          </ul>
+        </a> -->
+      </section>
     </section>
-    <!-- FIRST slideshow end -->
 
     <section class="grid__row grid__row--spacer-small"></section>
 
@@ -107,14 +146,18 @@
       <section class="grid__col grid__col--12">
         <a class="link link--inverted link--title-sans" HREF="https://www.wallpaper.com">
           <h2 class="title title--sans title--sans-mid title--hover">
-            <img class="img--inline img--spacing img-svg__white-large" SRC="assets/svg/arrow__white-large.svg">Wallpaper*
+            <img class="img--inline img--spacing img-svg__white-large" SRC="../assets/svg/arrow__white-large.svg">Wallpaper*
           </h2>
         </a>
       </section>
     </section>
 
-    <section class="slideshow" data-slick='{"slidesToShow": 5, "slidesToScroll": 5}'>
-      <section class="img--hover">
+    <section class="grid__row grid__row--switch positionAuto slideshow">
+      <!-- INSTRUCTIONS: Uncomment content below, to show slider controls -->
+      <section class="slideshow__controls slideshow__controls--left">
+        <img class="img--inline img-svg__white-large" src="../assets/svg/arrow__white-large.svg">
+      </section>
+      <section class="grid__col grid__col--4 img--hover">
         <!-- INSTRUCTIONS: Replace content of HREF with link to your article -->
         <a class="link link--inverted link--title-sans" HREF="https://www.wallpaper.com/art/design-on-water-luisa-via-romas-floating-exhibition-in-florence">
           <img class="img img--col-6 " SRC="https://cdn.wallpaper.com/main/00designonwater.jpg">
@@ -124,37 +167,41 @@
           </ul>
         </a>
       </section>
-      <section class="img--hover">
+      <section class="grid__col grid__col--4 img--hover">
         <!-- INSTRUCTIONS: Replace content of HREF with link to your article -->
         <a class="link link--inverted link--title-sans" HREF="https://www.wallpaper.com/gallery/lifestyle/a-visual-history-of-aesops-best-designer-stores">
-          <img class="img img--col-6 " SRC="assets/png/img_04.png">
+          <img class="img img--col-6 " SRC="../assets/png/img_04.png">
           <ul>
             <li class="caption">Not just skin deep: exploring Aesop's alluring retail interiors</li>
             <li class="caption caption--small-date">Friday 24 June 2016</li>
           </ul>
         </a>
       </section>
-      <section class="img--hover">
+      <section class="grid__col grid__col--4 img--hover">
         <!-- INSTRUCTIONS: Replace content of HREF with link to your article -->
         <a class="link link--inverted link--title-sans" HREF="https://www.wallpaper.com/lifestyle/aesop-and-snohetta-collaborate-on-new-store-in-dusseldorf-germany">
-          <img class="img img--col-6 " SRC="assets/png/img_06.png">
+          <img class="img img--col-6 " SRC="../assets/png/img_06.png">
           <ul>
             <li class="caption">Minimal mavens: Aesop and Snøhetta collaborate on new store in Düsseldorf</li>
             <li class="caption caption--small-date">Friday 17 June 2016</li>
           </ul>
         </a>
       </section>
-      <section class="img--hover">
+      <!-- INSTRUCTIONS: Uncomment content below, to show slider controls -->
+      <section class="slideshow__controls slideshow__controls--right">
+        <img class="img--inline img-svg__white-large" src="../assets/svg/arrow__white-large.svg">
+      </section>
+      <section class="grid__col grid__col--4 img--hover">
         <!-- INSTRUCTIONS: Replace content of HREF with link to your article -->
         <a class="link link--inverted link--title-sans" HREF="https://www.wallpaper.com/art/louise-nevelsons-monochrome-sculptures-take-over-pace-gallery-london">
-          <img class="img img--col-6 " SRC="assets/png/img_05.png">
+          <img class="img img--col-6 " SRC="../assets/png/img_05.png">
           <ul>
             <li class="caption">Wood work: Louise Nevelson's monochrome sculptures fill Pace London</li>
             <li class="caption caption--small-date">Tuesday 14 June 2016</li>
           </ul>
         </a>
       </section>
-      <section class="img--hover">
+      <section class="grid__col grid__col--4 img--hover">
         <!-- INSTRUCTIONS: Replace content of HREF with link to your article -->
         <a class="link link--inverted link--title-sans" HREF="https://www.wallpaper.com/design/erik-jrgensen-remakes-the-iconic-arne-vodder-av-chair">
           <img class="img img--col-6 " SRC="https://cdn.wallpaper.com/main/00avchair.jpg">
@@ -164,10 +211,10 @@
           </ul>
         </a>
       </section>
-      <section class="img--hover">
+      <section class="grid__col grid__col--4 img--hover">
         <!-- INSTRUCTIONS: Replace content of HREF with link to your article -->
         <a class="link link--inverted link--title-sans" HREF="https://www.wallpaper.com/fashion/serena-uziyels-sanayi-313s-artisanal-spin-on-istanbuls-traditional-slippers">
-          <img class="img img--col-6 " SRC="assets/png/img_01.png">
+          <img class="img img--col-6 " SRC="../assets/png/img_01.png">
           <ul>
             <li class="caption">Fancy footwork: Sanayi 313’s artisanal spin on traditional Turkish slippers</li>
             <li class="caption caption--small-date">Tuesday 31 May 2016</li>
@@ -184,14 +231,18 @@
       <section class="grid__col grid__col--12">
         <a class="link link--inverted link--title-sans" HREF="http://living.corriere.it">
           <h2 class="title title--sans title--sans-mid title--hover">
-            <img class="img--inline img--spacing img-svg__white-large" src="assets/svg/arrow__white-large.svg">Living
+            <img class="img--inline img--spacing img-svg__white-large" src="../assets/svg/arrow__white-large.svg">Living
           </h2>
         </a>
       </section>
     </section>
 
-    <section class="slideshow" data-slick='{"slidesToShow": 5, "slidesToScroll": 5}'>
-      <section class="img--hover">
+    <section class="grid__row grid__row--switch positionAuto slideshow">
+      <!-- INSTRUCTIONS: Uncomment content below, to show slider controls -->
+      <section class="slideshow__controls slideshow__controls--left">
+        <img class="img--inline img-svg__white-large" src="../assets/svg/arrow__white-large.svg">
+      </section>
+      <section class="grid__col grid__col--4 img--hover">
         <!-- INSTRUCTIONS: Replace content of HREF with link to your article -->
         <a class="link link--inverted link--title-sans" HREF="http://living.corriere.it/salone-del-mobile/fuorisalone/eventi-extra/source-self-made-design/">
           <img class="img img--col-6 " SRC="http://static2-living.corriereobjects.it/wp-content/uploads/2017/04/MostraSource4-660x440.jpg">
@@ -201,7 +252,7 @@
           </ul>
         </a>
       </section>
-      <section class="img--hover">
+      <section class="grid__col grid__col--4 img--hover">
         <!-- INSTRUCTIONS: Replace content of HREF with link to your article -->
         <a class="link link--inverted link--title-sans" HREF="http://living.corriere.it/salone-del-mobile/fuorisalone/eventi-extra/matter-made-isola-design-district/">
           <img class="img img--col-6 " SRC="http://static2-living.corriereobjects.it/wp-content/uploads/2017/04/MatterMade-copy-660x440.jpg">
@@ -211,7 +262,7 @@
           </ul>
         </a>
       </section>
-      <section class="img--hover">
+      <section class="grid__col grid__col--4 img--hover">
         <!-- INSTRUCTIONS: Replace content of HREF with link to your article -->
         <a class="link link--inverted link--title-sans" HREF="http://living.corriere.it/tendenze/design/fornasetti-comme-des-garcons-collezione-moda-uomo/">
           <img class="img img--col-6 " SRC="http://static2-living.corriereobjects.it/wp-content/uploads/2017/02/Comme-des-Garc%CC%A7ons-at-Fornasetti-Store-04-660x440.jpg">
@@ -221,7 +272,11 @@
           </ul>
         </a>
       </section>
-      <section class="img--hover">
+      <!-- INSTRUCTIONS: Uncomment content below, to show slider controls -->
+      <section class="slideshow__controls slideshow__controls--right">
+        <img class="img--inline img-svg__white-large" src="../assets/svg/arrow__white-large.svg">
+      </section>
+      <section class="grid__col grid__col--4 img--hover">
         <!-- INSTRUCTIONS: Replace content of HREF with link to your article -->
         <a class="link link--inverted link--title-sans" HREF="http://living.corriere.it/salone-del-mobile/fuorisalone/eventi-extra/isola-nuovo-design-district/">
           <img class="img img--col-6 " SRC="http://static2-living.corriereobjects.it/wp-content/uploads/2017/04/Harvest_DutchInvertuals-660x440.jpg">
@@ -231,7 +286,7 @@
           </ul>
         </a>
       </section>
-      <section class="img--hover">
+      <section class="grid__col grid__col--4 img--hover">
         <!-- INSTRUCTIONS: Replace content of HREF with link to your article -->
         <a class="link link--inverted link--title-sans" HREF="http://living.corriere.it/tendenze/design/omer-arbel-bocci-scultura-barbican/">
           <img class="img img--col-6 " SRC="http://static2-living.corriereobjects.it/wp-content/uploads/2016/11/19947boccilgfmt-660x430.jpg">
@@ -241,7 +296,7 @@
           </ul>
         </a>
       </section>
-      <section class="img--hover">
+      <section class="grid__col grid__col--4 img--hover">
         <!-- INSTRUCTIONS: Replace content of HREF with link to your article -->
         <a class="link link--inverted link--title-sans" HREF="http://living.corriere.it/tendenze/design/chains-lampade-bouroullec-galerie-kreo-londra/">
           <img class="img img--col-6 " SRC="http://static2-living.corriereobjects.it/wp-content/uploads/2016/11/chaines-kreo-cover-660x440.jpg">
@@ -252,7 +307,6 @@
         </a>
       </section>
     </section>
-
   </section>
 
   <section class="container__grid container__grid--foot">
@@ -260,10 +314,10 @@
       <section class="grid__col grid__col--1 nowrap">
         <ul>
           <li class="li--inline">
-            <a href="https://uk.linkedin.com/in/elisa-carassai-2a6951b4"><img class="img img__soc" src="assets/png/soc_li.png"></a>
+            <a href="https://uk.linkedin.com/in/elisa-carassai-2a6951b4"><img class="img img__soc" src="../assets/png/soc_li.png"></a>
           </li>
           <li class="li--inline">
-            <a href="https://www.instagram.com/elisacarassai/?hl=en"><img class="img img__soc" src="assets/png/soc_insta.png"></a>
+            <a href="https://www.instagram.com/elisacarassai/?hl=en"><img class="img img__soc" src="../assets/png/soc_insta.png"></a>
           </li>
         </ul>
       </section>
@@ -279,9 +333,6 @@
     </section>
   </section>
 
-  <script type="text/javascript" src="scripts/jquery.min.js"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-  <script type="text/javascript" src="scripts/scripts-00.js"></script>
-  <script type="text/javascript" src="scripts/slide-00.js"></script>
+  <script type="text/javascript" src="../scripts/scripts-00.js"></script>
 </body>
 </html>

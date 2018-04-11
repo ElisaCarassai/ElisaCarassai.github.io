@@ -6,8 +6,9 @@
   <title>Elisa Carassai</title>
   <meta name="author" content="Nathalie de Vallière" contact="https://ndevalliere.github.io/">
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
   <link rel="stylesheet" href="https://rawgit.com/elisaCarassai/elisaCarassai.github.io/master/styles/fonts.css">
-  <script type="text/javascript" src="../scripts/jquery.min.js"></script>
+  <link rel="stylesheet" href="../styles/slide-00.css">
   <link rel="stylesheet" href="../styles/styles-00.css">
 </head>
 <body>
@@ -53,7 +54,7 @@
       <section class="grid__col grid__col--12">
         <h1>&nbsp;</h1>
         <h1>&nbsp;</h1>
-        <h1 class="title title--serif title--serif-mid"><span class="title--underline">Articles</span></h1>
+        <h1 class="title title--serif title--serif-mid title--articles-mobile"><span class="title--underline">Articles</span></h1>
       </section>
     </section>
 
@@ -69,13 +70,10 @@
       </section>
     </section>
 
-    <section class="grid__row grid__row--switch positionAuto slideshow">
-      <!-- INSTRUCTIONS: Uncomment content below, to show slider controls -->
-      <!-- <section class="slideshow__controls slideshow__controls--left">
-        <img class="img--inline img-svg__white-large" src="../assets/svg/arrow__white-large.svg">
-      </section> -->
-        <section class="grid__col grid__col--4 img--hover">
-          <!-- INSTRUCTIONS: Replace content of HREF with link to your article -->
+    <!-- FIRST slideshow start -->
+    <section class="slideshow slideshow--unfinished" data-slick='{"slidesToShow": 5, "slidesToScroll": 5}'>
+        <section class="img--hover">
+          <!-- INSTRUCTIONS: Replace content of HREF with link to your article / SRC to your photo -->
           <a class="link link--inverted link--title-sans" HREF="http://www.vogue.co.uk/gallery/best-prada-sets">
             <img class="img img--col-4" SRC="https://vg-images.condecdn.net/image/87OQwKewvvw/crop/810">
             <ul>
@@ -84,8 +82,8 @@
             </ul>
           </a>
         </section>
-      <section class="grid__col grid__col--4 img--hover">
-        <!-- INSTRUCTIONS: Replace content of HREF with link to your article -->
+      <section class="img--hover">
+        <!-- INSTRUCTIONS: Replace content of HREF with link to your article / SRC to your photo -->
         <a class="link link--inverted link--title-sans" HREF="http://www.vogue.co.uk/gallery/marvelous-mrs-maisel-best-fashion-moments">
           <img class="img img--col-4" SRC="https://vg-images.condecdn.net/image/lYenA6AqMn7/crop/1020">
           <ul>
@@ -94,51 +92,11 @@
           </ul>
         </a>
       </section>
-      <section class="grid__col grid__col--4">
-        <!-- INSTRUCTIONS: Uncomment content below, to add more articles -->
-        <!-- <a class="link link--inverted link--title-sans" HREF="">
-         <img class="img img--col-4 " INSTRUCTIONS="">
-          <ul>
-            <li class="caption caption--small">TITLE</li>
-            <li class="caption caption--small-date">DATE</li>
-          </ul>
-        </a> -->
-      </section>
-      <!-- INSTRUCTIONS: Uncomment content below, to show slider controls -->
-      <!-- <section class="slideshow__controls slideshow__controls--right">
-        <img class="img--inline img-svg__white-large" src="../assets/svg/arrow__white-large.svg">
-      </section> -->
-      <section class="grid__col grid__col--4">
-        <!-- INSTRUCTIONS: Uncomment content below, to add more articles -->
-        <!-- <a class="link link--inverted link--title-sans" HREF="">
-         <img class="img img--col-4 " SRC="">
-          <ul>
-            <li class="caption caption--small">TITLE</li>
-            <li class="caption caption--small-date">DATE</li>
-          </ul>
-        </a> -->
-      </section>
-      <section class="grid__col grid__col--4">
-        <!-- INSTRUCTIONS: Uncomment content below, to add more articles -->
-        <!-- <a class="link link--inverted link--title-sans" HREF="">
-         <img class="img img--col-4 " SRC="">
-          <ul>
-            <li class="caption caption--small">TITLE</li>
-            <li class="caption caption--small-date">DATE</li>
-          </ul>
-        </a> -->
-      </section>
-      <section class="grid__col grid__col--4">
-        <!-- INSTRUCTIONS: Uncomment content below, to add more articles -->
-        <!-- <a class="link link--inverted link--title-sans" HREF="">
-         <img class="img img--col-4 " SRC="">
-          <ul>
-            <li class="caption caption--small">TITLE</li>
-            <li class="caption caption--small-date">DATE</li>
-          </ul>
-        </a> -->
-      </section>
+      <section class="img--hover"></section>
+      <section class="img--hover"></section>
+      <section class="img--hover"></section>
     </section>
+    <!-- FIRST slideshow end -->
 
     <section class="grid__row grid__row--spacer-small"></section>
 
@@ -152,12 +110,8 @@
       </section>
     </section>
 
-    <section class="grid__row grid__row--switch positionAuto slideshow">
-      <!-- INSTRUCTIONS: Uncomment content below, to show slider controls -->
-      <section class="slideshow__controls slideshow__controls--left">
-        <img class="img--inline img-svg__white-large" src="../assets/svg/arrow__white-large.svg">
-      </section>
-      <section class="grid__col grid__col--4 img--hover">
+    <section class="slideshow" data-slick='{"slidesToShow": 5, "slidesToScroll": 5}'>
+      <section class="img--hover">
         <!-- INSTRUCTIONS: Replace content of HREF with link to your article -->
         <a class="link link--inverted link--title-sans" HREF="https://www.wallpaper.com/art/design-on-water-luisa-via-romas-floating-exhibition-in-florence">
           <img class="img img--col-6 " SRC="https://cdn.wallpaper.com/main/00designonwater.jpg">
@@ -167,7 +121,7 @@
           </ul>
         </a>
       </section>
-      <section class="grid__col grid__col--4 img--hover">
+      <section class="img--hover">
         <!-- INSTRUCTIONS: Replace content of HREF with link to your article -->
         <a class="link link--inverted link--title-sans" HREF="https://www.wallpaper.com/gallery/lifestyle/a-visual-history-of-aesops-best-designer-stores">
           <img class="img img--col-6 " SRC="../assets/png/img_04.png">
@@ -177,7 +131,7 @@
           </ul>
         </a>
       </section>
-      <section class="grid__col grid__col--4 img--hover">
+      <section class="img--hover">
         <!-- INSTRUCTIONS: Replace content of HREF with link to your article -->
         <a class="link link--inverted link--title-sans" HREF="https://www.wallpaper.com/lifestyle/aesop-and-snohetta-collaborate-on-new-store-in-dusseldorf-germany">
           <img class="img img--col-6 " SRC="../assets/png/img_06.png">
@@ -187,11 +141,7 @@
           </ul>
         </a>
       </section>
-      <!-- INSTRUCTIONS: Uncomment content below, to show slider controls -->
-      <section class="slideshow__controls slideshow__controls--right">
-        <img class="img--inline img-svg__white-large" src="../assets/svg/arrow__white-large.svg">
-      </section>
-      <section class="grid__col grid__col--4 img--hover">
+      <section class="img--hover">
         <!-- INSTRUCTIONS: Replace content of HREF with link to your article -->
         <a class="link link--inverted link--title-sans" HREF="https://www.wallpaper.com/art/louise-nevelsons-monochrome-sculptures-take-over-pace-gallery-london">
           <img class="img img--col-6 " SRC="../assets/png/img_05.png">
@@ -201,7 +151,7 @@
           </ul>
         </a>
       </section>
-      <section class="grid__col grid__col--4 img--hover">
+      <section class="img--hover">
         <!-- INSTRUCTIONS: Replace content of HREF with link to your article -->
         <a class="link link--inverted link--title-sans" HREF="https://www.wallpaper.com/design/erik-jrgensen-remakes-the-iconic-arne-vodder-av-chair">
           <img class="img img--col-6 " SRC="https://cdn.wallpaper.com/main/00avchair.jpg">
@@ -211,7 +161,7 @@
           </ul>
         </a>
       </section>
-      <section class="grid__col grid__col--4 img--hover">
+      <section class="img--hover">
         <!-- INSTRUCTIONS: Replace content of HREF with link to your article -->
         <a class="link link--inverted link--title-sans" HREF="https://www.wallpaper.com/fashion/serena-uziyels-sanayi-313s-artisanal-spin-on-istanbuls-traditional-slippers">
           <img class="img img--col-6 " SRC="../assets/png/img_01.png">
@@ -237,12 +187,8 @@
       </section>
     </section>
 
-    <section class="grid__row grid__row--switch positionAuto slideshow">
-      <!-- INSTRUCTIONS: Uncomment content below, to show slider controls -->
-      <section class="slideshow__controls slideshow__controls--left">
-        <img class="img--inline img-svg__white-large" src="../assets/svg/arrow__white-large.svg">
-      </section>
-      <section class="grid__col grid__col--4 img--hover">
+    <section class="slideshow" data-slick='{"slidesToShow": 5, "slidesToScroll": 5}'>
+      <section class="img--hover">
         <!-- INSTRUCTIONS: Replace content of HREF with link to your article -->
         <a class="link link--inverted link--title-sans" HREF="http://living.corriere.it/salone-del-mobile/fuorisalone/eventi-extra/source-self-made-design/">
           <img class="img img--col-6 " SRC="http://static2-living.corriereobjects.it/wp-content/uploads/2017/04/MostraSource4-660x440.jpg">
@@ -252,7 +198,7 @@
           </ul>
         </a>
       </section>
-      <section class="grid__col grid__col--4 img--hover">
+      <section class="img--hover">
         <!-- INSTRUCTIONS: Replace content of HREF with link to your article -->
         <a class="link link--inverted link--title-sans" HREF="http://living.corriere.it/salone-del-mobile/fuorisalone/eventi-extra/matter-made-isola-design-district/">
           <img class="img img--col-6 " SRC="http://static2-living.corriereobjects.it/wp-content/uploads/2017/04/MatterMade-copy-660x440.jpg">
@@ -262,7 +208,7 @@
           </ul>
         </a>
       </section>
-      <section class="grid__col grid__col--4 img--hover">
+      <section class="img--hover">
         <!-- INSTRUCTIONS: Replace content of HREF with link to your article -->
         <a class="link link--inverted link--title-sans" HREF="http://living.corriere.it/tendenze/design/fornasetti-comme-des-garcons-collezione-moda-uomo/">
           <img class="img img--col-6 " SRC="http://static2-living.corriereobjects.it/wp-content/uploads/2017/02/Comme-des-Garc%CC%A7ons-at-Fornasetti-Store-04-660x440.jpg">
@@ -272,11 +218,7 @@
           </ul>
         </a>
       </section>
-      <!-- INSTRUCTIONS: Uncomment content below, to show slider controls -->
-      <section class="slideshow__controls slideshow__controls--right">
-        <img class="img--inline img-svg__white-large" src="../assets/svg/arrow__white-large.svg">
-      </section>
-      <section class="grid__col grid__col--4 img--hover">
+      <section class="img--hover">
         <!-- INSTRUCTIONS: Replace content of HREF with link to your article -->
         <a class="link link--inverted link--title-sans" HREF="http://living.corriere.it/salone-del-mobile/fuorisalone/eventi-extra/isola-nuovo-design-district/">
           <img class="img img--col-6 " SRC="http://static2-living.corriereobjects.it/wp-content/uploads/2017/04/Harvest_DutchInvertuals-660x440.jpg">
@@ -286,7 +228,7 @@
           </ul>
         </a>
       </section>
-      <section class="grid__col grid__col--4 img--hover">
+      <section class="img--hover">
         <!-- INSTRUCTIONS: Replace content of HREF with link to your article -->
         <a class="link link--inverted link--title-sans" HREF="http://living.corriere.it/tendenze/design/omer-arbel-bocci-scultura-barbican/">
           <img class="img img--col-6 " SRC="http://static2-living.corriereobjects.it/wp-content/uploads/2016/11/19947boccilgfmt-660x430.jpg">
@@ -296,7 +238,7 @@
           </ul>
         </a>
       </section>
-      <section class="grid__col grid__col--4 img--hover">
+      <section class="img--hover">
         <!-- INSTRUCTIONS: Replace content of HREF with link to your article -->
         <a class="link link--inverted link--title-sans" HREF="http://living.corriere.it/tendenze/design/chains-lampade-bouroullec-galerie-kreo-londra/">
           <img class="img img--col-6 " SRC="http://static2-living.corriereobjects.it/wp-content/uploads/2016/11/chaines-kreo-cover-660x440.jpg">
@@ -307,6 +249,7 @@
         </a>
       </section>
     </section>
+
   </section>
 
   <section class="container__grid container__grid--foot">
@@ -333,6 +276,9 @@
     </section>
   </section>
 
+  <script type="text/javascript" src="../scripts/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
   <script type="text/javascript" src="../scripts/scripts-00.js"></script>
+  <script type="text/javascript" src="../scripts/slide-00.js"></script>
 </body>
 </html>
