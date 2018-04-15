@@ -55,10 +55,10 @@ display: none !important;
   -moz-osx-font-smoothing: grayscale;
 }
 .slick-prev {
-  left: 35px;
+  left: -5%;
 }
 [dir="rtl"] .slick-prev {
-  right: 35px;
+  /* right: 35px; */
   left: auto;
 }
 .slick-prev:before {
@@ -68,20 +68,20 @@ display: none !important;
   content: url("../assets/svg/arrow__white-large-L.svg");
 }
 .slick-next {
-  right: 8.333%;
+  right: 1.25%;
 }
 [dir="rtl"] .slick-next {
   right: auto;
-  right: 8.333%;
+  right: 1.25%;
 }
 /*mobile styles*/
 @media only screen and (max-width: 1440px)  {
   .slick-next {
-    right: 10%;
+    right: 6.25%;
   }
   [dir="rtl"] .slick-next {
     right: auto;
-    right: 10%;
+    right: 6.25%;
   }
 }
 .slick-next:before {

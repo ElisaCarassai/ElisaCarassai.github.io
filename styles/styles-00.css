@@ -226,6 +226,7 @@ a:focus,
   -webkit-transition: 0.25s;
   -o-transition: 0.25s;
   transition: 0.25s;
+      margin-left: 0 !important;
 }
 
 .img--hover:hover {

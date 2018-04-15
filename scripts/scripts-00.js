@@ -53,8 +53,7 @@ function resize() {
 
   //Spacing
   $(".container__grid--mid").css({"padding": gridUnit + "% 0"});
-  $(".slideshow").css({"padding-left": gridUnit/2  + "%",
-                       "margin-right": (-1) * gridUnit/2 + "%"});
+  $(".container__slideshow").css({"padding-right": 0});
   $(".container__grid--foot").css({"padding-bottom": ($(".grid__row--fixed").innerHeight())/2 + "px",
                                    "padding-top": ($(".grid__row--fixed").innerHeight()) + "px"});
   $(".container__header").css({"bottom": gridUnit + "%"});
