@@ -110,20 +110,6 @@ $("#link--about").click(function () {
     $(".container__grid--replacement").toggleClass("hide");
 });
 
-//weird mobile shit - delete?
-// $("#link--about-mobile").click(function () {
-//
-//     $(".container__grid--absolute").toggleClass("right left");
-//     $(".container__grid--mid").toggleClass("hide");
-//     $(".container__header").toggleClass("hide");
-//     $(".container__grid--replacement").toggleClass("hide");
-//     $(".container__grid--absolute").toggleClass("hide");
-//     $(".link--text--mobile").toggleClass("nopadding");
-//     $(".link--text--mobile").find(".img-svg__black--small").toggleClass("img-svg__black--small-rotate");
-//     $(this).toggleText('Read More', 'Read Less');
-//
-// });
-
 $("#link--home").click(function () {
     $(".container__grid--absolute").removeClass("right left");
     if($(".container__grid--mid").length > 0) {
@@ -136,32 +122,6 @@ $("#link--home").click(function () {
         $(".container__header").removeClass("hide");
     }
 });
-
-//Gallery / slideshow
-//-
-
-//hover, show and hide controls
-// $(".slideshow").mouseover(function() {
-//   if ($(this).hasClass("positionAuto")) {
-//     $(this).find(".slideshow__controls.slideshow__controls--right").css({"visibility": "visible"});
-//   }
-//   else {
-//     $(this).find(".slideshow__controls.slideshow__controls--left").css({"visibility": "visible"});
-//   }
-// });
-// $(".slideshow").mouseout(function() {
-//     $(this).find(".slideshow__controls.slideshow__controls--right").css({"visibility": "hidden"});
-//     $(this).find(".slideshow__controls.slideshow__controls--left").css({"visibility": "hidden"});
-// });
-
-//click controls
-// $(".slideshow__controls--right").click(function () {
-//     $(this).parent(".slideshow").removeClass("positionAuto");
-// });
-//
-// $(".slideshow__controls--left").click(function () {
-//     $(this).parent(".slideshow").addClass("positionAuto");
-// });
 
 //img move
 //-
