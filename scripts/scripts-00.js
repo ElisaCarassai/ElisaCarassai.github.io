@@ -48,7 +48,8 @@ function resize() {
   $(".caption").css({"margin": gridUnit/2 + "% 0"});
 
    if(IW < 1400) {
-     $(".container__slideshow").css({"padding": "0 " + gridUnit/24 + "%"});
+     $(".container__slideshow").css({"padding": 0});
+     // $(".container__slideshow .grid__col--12").css({"margin": 0 + " !important"});
      $(".grid__row--fixed").css({"width": gridUnit*0.11*IW + "px"});
      $(".container__grid--foot").css({"padding-bottom": ($(".grid__row--fixed").innerHeight())/2 + "px",
                                       "padding-top": ($(".grid__row--fixed").innerHeight()) + "px"});

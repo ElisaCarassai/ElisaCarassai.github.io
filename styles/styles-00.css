@@ -480,7 +480,11 @@ a:focus,
   }
 
   .grid__col {
-    margin: 0;
+    margin: 0 !important;
+  }
+
+  .nopadding {
+    padding: 0 !important;
   }
 
   /* about section new page */
