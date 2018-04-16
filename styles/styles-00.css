@@ -584,4 +584,8 @@ a:focus,
     margin-top: initial;
     cursor: pointer;
   }
+
+  .mobile__hide {
+    display: none;
+  }
 }

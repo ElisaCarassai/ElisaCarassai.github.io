@@ -1,24 +1,5 @@
-//Window resize content - fuck pixel perfection, aint nobody be able to control everything
-//-
-
-//weird mobile shit - delete?
-// $(document).ready(mobileClick);
-// $(window).load(mobileClick);​
-
 $(document).ready(resize);
 $(window).resize(resize);
-
-// function mobileClick() {
-//   if(($(window).innerWidth()) < 667) {
-//     $(".container__grid--absolute").addClass("hide");
-//     // $(".img-svg__white-large").addClass("hide");
-//     // $(".img-svg__black--small").addClass("hide");
-//     $("ul").css({"padding": "0px " + 100/24 + "%"});
-//     $(".caption--small-date").css({"margin-bottom": 100/6 + "%",});
-//     $(".title--sans-mid").css({"margin-top": 100/10 + "%",
-//                                "margin-bottom": 100/12 + "%",});
-//   }
-// }
 
 //Text toggling
 //-
@@ -67,6 +48,7 @@ function resize() {
   $(".caption").css({"margin": gridUnit/2 + "% 0"});
 
    if(IW < 1400) {
+     $(".container__slideshow").css({"padding": "0 " + gridUnit/24 + "%"});
      $(".grid__row--fixed").css({"width": gridUnit*0.11*IW + "px"});
      $(".container__grid--foot").css({"padding-bottom": ($(".grid__row--fixed").innerHeight())/2 + "px",
                                       "padding-top": ($(".grid__row--fixed").innerHeight()) + "px"});
