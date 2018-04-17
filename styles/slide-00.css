@@ -91,6 +91,9 @@
     right: auto;
     right: 1.25%;
   }
+  .slick-prev {
+    left: 0;
+  }
 }
 .slick-next:before {
   content: url("../assets/svg/arrow__white-large-R.svg");
